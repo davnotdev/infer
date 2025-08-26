@@ -24,7 +24,7 @@ fn main() {
         }
         Err(e) => {
             eprintln!("Looks like something went wrong 😔");
-            eprintln!("{}", e);
+            eprintln!("{e}");
             exit(1);
         }
     }
